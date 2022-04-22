@@ -3,6 +3,8 @@
 Code for the paper [Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models
 ](https://arxiv.org/abs/2201.06503)
 
+News (Apr 22, 2022): Analytic-DPM received an *Outstanding Paper Award* at ICLR 2022!
+
 ## Requirements
 pytorch=1.9.0
 
