@@ -52,3 +52,11 @@ $ python run_lsun_bedroom.py
 * LSUN Bedroom model: [[checkpoint](https://heibox.uni-heidelberg.de/d/01207c3f6b8441779abf/)] from https://github.com/pesser/pytorch_diffusion
 
 * Precalculated Gamma vectors: [[link](https://drive.google.com/file/d/1pnwxNFY-0P_IZaTVP1zNBxzKb3T1QeD7/view?usp=sharing)]
+
+## This implementation is based on / inspired by
+
+* https://github.com/pesser/pytorch_diffusion (provide codes of models for CelebA64x64 and LSUN Bedroom)
+
+* https://github.com/openai/improved-diffusion (provide codes of models for CIFAR10 and Imagenet64x64)
+
+* https://github.com/mseitzer/pytorch-fid (provide the official implementation of FID to PyTorch)
