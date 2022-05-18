@@ -3,6 +3,10 @@
 Code for the paper [Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models
 ](https://arxiv.org/abs/2201.06503)
 
+News (May 18, 2022): We provide an extended codebase (https://github.com/baofff/Extended-Analytic-DPM) for Analytic-DPM:
+* It reproduces all main results, and additionally applies Analytic-DPM to score-based SDE. 
+* For easy reproducing, it provides pretrained DPMs converted to a format that can be directly used, as well as running commands and FID statistics.
+
 News (Apr 22, 2022): Analytic-DPM received an *Outstanding Paper Award* at ICLR 2022!
 
 ## Requirements
@@ -52,6 +56,8 @@ $ python run_lsun_bedroom.py
 * LSUN Bedroom model: [[checkpoint](https://heibox.uni-heidelberg.de/d/01207c3f6b8441779abf/)] from https://github.com/pesser/pytorch_diffusion
 
 * Precalculated Gamma vectors: [[link](https://drive.google.com/file/d/1pnwxNFY-0P_IZaTVP1zNBxzKb3T1QeD7/view?usp=sharing)]
+
+* Precalculated FID statistics (calculated as described in Appendix F.2 in the paper): [[link](https://drive.google.com/drive/folders/1aqSXiJSFRqtqHBAsgUw4puZcRqrqOoHx?usp=sharing)].
 
 ## This implementation is based on / inspired by
 
